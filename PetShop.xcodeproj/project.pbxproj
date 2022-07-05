@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752C498A284FB99E009FEE9D /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C4989284FB99E009FEE9D /* ContainerViewController.swift */; };
+		75633780284D3AF900FE1A55 /* PopularBrandsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563377F284D3AF900FE1A55 /* PopularBrandsCollectionViewController.swift */; };
+		75AC4E55284E689100889BA0 /* PopularBrandsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC4E54284E689100889BA0 /* PopularBrandsCollectionViewCell.swift */; };
+		75B0B823284BEFA2003D5390 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0B822284BEFA2003D5390 /* MainScreenViewController.swift */; };
+		75B0B825284BEFCE003D5390 /* MainScreenUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0B824284BEFCE003D5390 /* MainScreenUIView.swift */; };
 		75B9302528315867003C09A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B9302428315867003C09A3 /* AppDelegate.swift */; };
 		75B9302728315867003C09A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B9302628315867003C09A3 /* SceneDelegate.swift */; };
 		75B9302928315867003C09A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B9302828315867003C09A3 /* ViewController.swift */; };
 		75B9302C28315867003C09A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B9302A28315867003C09A3 /* Main.storyboard */; };
 		75B9302E28315869003C09A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B9302D28315869003C09A3 /* Assets.xcassets */; };
 		75B9303128315869003C09A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B9302F28315869003C09A3 /* LaunchScreen.storyboard */; };
+		75B9303A283158CF003C09A3 /* RegistrationScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B93039283158CF003C09A3 /* RegistrationScreenViewController.swift */; };
+		75B9303C28315909003C09A3 /* RegistrationScreenUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B9303B28315909003C09A3 /* RegistrationScreenUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		752C4989284FB99E009FEE9D /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		7563377F284D3AF900FE1A55 /* PopularBrandsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularBrandsCollectionViewController.swift; sourceTree = "<group>"; };
+		75AC4E54284E689100889BA0 /* PopularBrandsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularBrandsCollectionViewCell.swift; sourceTree = "<group>"; };
+		75B0B822284BEFA2003D5390 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		75B0B824284BEFCE003D5390 /* MainScreenUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenUIView.swift; sourceTree = "<group>"; };
 		75B9302128315867003C09A3 /* PetShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B9302428315867003C09A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75B9302628315867003C09A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		75B9302D28315869003C09A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B9303028315869003C09A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75B930322831586A003C09A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B93039283158CF003C09A3 /* RegistrationScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreenViewController.swift; sourceTree = "<group>"; };
+		75B9303B28315909003C09A3 /* RegistrationScreenUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreenUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75B0B821284BEF7B003D5390 /* mainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				75B0B822284BEFA2003D5390 /* MainScreenViewController.swift */,
+				75B0B824284BEFCE003D5390 /* MainScreenUIView.swift */,
+				7563377F284D3AF900FE1A55 /* PopularBrandsCollectionViewController.swift */,
+				75AC4E54284E689100889BA0 /* PopularBrandsCollectionViewCell.swift */,
+				752C4989284FB99E009FEE9D /* ContainerViewController.swift */,
+			);
+			path = mainScreen;
+			sourceTree = "<group>";
+		};
 		75B9301828315867003C09A3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +82,8 @@
 		75B9302328315867003C09A3 /* PetShop */ = {
 			isa = PBXGroup;
 			children = (
+				75B0B821284BEF7B003D5390 /* mainScreen */,
+				75B9303828315879003C09A3 /* registrationScreen */,
 				75B9302428315867003C09A3 /* AppDelegate.swift */,
 				75B9302628315867003C09A3 /* SceneDelegate.swift */,
 				75B9302828315867003C09A3 /* ViewController.swift */,
@@ -65,6 +93,23 @@
 				75B930322831586A003C09A3 /* Info.plist */,
 			);
 			path = PetShop;
+			sourceTree = "<group>";
+		};
+		75B9303828315879003C09A3 /* registrationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				75B9303D28315B6A003C09A3 /* DataModel */,
+				75B93039283158CF003C09A3 /* RegistrationScreenViewController.swift */,
+				75B9303B28315909003C09A3 /* RegistrationScreenUIView.swift */,
+			);
+			path = registrationScreen;
+			sourceTree = "<group>";
+		};
+		75B9303D28315B6A003C09A3 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +185,14 @@
 			files = (
 				75B9302928315867003C09A3 /* ViewController.swift in Sources */,
 				75B9302528315867003C09A3 /* AppDelegate.swift in Sources */,
+				752C498A284FB99E009FEE9D /* ContainerViewController.swift in Sources */,
+				75B0B825284BEFCE003D5390 /* MainScreenUIView.swift in Sources */,
+				75B9303C28315909003C09A3 /* RegistrationScreenUIView.swift in Sources */,
+				75B9303A283158CF003C09A3 /* RegistrationScreenViewController.swift in Sources */,
 				75B9302728315867003C09A3 /* SceneDelegate.swift in Sources */,
+				75633780284D3AF900FE1A55 /* PopularBrandsCollectionViewController.swift in Sources */,
+				75AC4E55284E689100889BA0 /* PopularBrandsCollectionViewCell.swift in Sources */,
+				75B0B823284BEFA2003D5390 /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
